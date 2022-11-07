@@ -1,0 +1,9 @@
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 0 15px;
+    @media screen and (max-width: 479px) {
+        width: 288px;
+    }
+}

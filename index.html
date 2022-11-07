@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header container">
+        <a href="" class="header__logo">
+            <svg class="logo__svg" width="32" height="33">
+                <path
+                    d="M3.386 18.715c.454 0 .821.367.821.82v11.323h22.645V19.536a.821.821 0 0 1 1.642 0v12.143a.82.82 0 0 1-.821.821H3.386a.821.821 0 0 1-.82-.821V19.536c0-.454.367-.821.82-.821Z" />
+                <path
+                    d="M15.291.74c.32-.32.84-.32 1.161 0l15.051 15.051a.821.821 0 0 1-.58 1.402H12.587v10.244h6.226v-7.166h-2.942a.82.82 0 1 1 0-1.642h3.762c.454 0 .821.368.821.821v8.808a.821.821 0 0 1-.82.821h-7.868a.821.821 0 0 1-.821-.82V16.371a.82.82 0 0 1 .821-.821h17.174L15.87 2.48 1.402 16.953a.821.821 0 0 1-1.16-1.16L15.29.74Z" />
+            </svg>
+        </a>
+        <a href="" class="header-logo__text">miratex<br>house</a>
+        <button class="mobile-menu__menu-btn " type="button" data-menu-open>
+            <svg width="32" height="16.5">
+                <path stroke="#000" stroke-width="2" d="M10 1h20M10 8h20" />
+                <path stroke="#161616" stroke-width="2" d="M0 15h30" />
+            </svg>
+
+        </button>
+        <div class="mobile-menu is-hidden" data-menu>
+            <div class="mobile-menu__content ">
+
+                <div>
+                    <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                        <svg width="22" height="22">
+                            <use class="icon-close" href="./img/symbol-defs.svg#close_24px"></use>
+                        </svg>
+                    </button>
+                    <ul class="lang">
+                        <li class="lang__item"><a href="" class="lang__link">fr</a></li>
+                        <li class="lang__item"><a href="" class="lang__link">de</a></li>
+                        <li class="lang__item"><a href="" class="lang__link">en</a></li>
+                        <li class="lang__item"><a href="" class="lang__link">uk</a></li>
+                        <li class="lang__item"><a href="" class="lang__link">ru</a></li>
+                    </ul>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="" class="nav__link">каталог</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">контакты</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">зарабатывай<br> с нами</a></li>
+                    </ul>
+                </div>
+                <div class="">
+
+                    <ul class="action__list">
+                        <li class="action__item">
+                            <a href="" class="action__link">
+                                <svg width="17" height="17" fill="#cacaca">
+                                    <use class="action__icon" href="./img/symbol-defs.svg#link"></use>
+                                </svg>Поделиться
+                            </a>
+                        </li>
+                        <li class="action__item">
+                            <a href="" class="action__link">
+                                <svg width="18" height="18" ">
+                                    <use class=" action__icon" href="./img/symbol-defs.svg#login"></use>
+                                </svg>войти
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero section">
+            <h1 class="hero__title">кто мы такие?</h1>
+            <h2 class="secondary-title">miratex house</h2>
+            <picture class="hero__overlay">
+                <source srcset="./img/hero1x.jpg 1x,./img/hero2x.jpg 2x" media="(min-width: 320px)">
+                <img src="./img/hero1x.jpg" alt="">
+            </picture>
+        </section>
+        <section class="features section">
+            <ul class="">
+                <li class="features__item">
+                    <p class="features__content">Мы перерабатываем грузовые контейнеры в автономные крипто-дома,
+                        гостиницы, офисы, кафе, которые
+                        можно разместить там,
+                        где Вы хотите.</p>
+                </li>
+                <li class="features__item">
+                    <p class="features__content">Они абсолютно не зависят от коммуникаций, полностью готовы к
+                        эксплуатации, а в свободное от
+                        работы время они добывают
+                        крипто-валюту.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="dropdown section">
+            <h2 class="dropdown__title">КАК ВЫ МОЖЕТЕ
+                ИХ ИСПОЛЬЗОВАТЬ</h2>
+            <ul class="dropdown__list">
+                <li class="dropdown__item">
+                    <div class="">
+                        <div class="dropdown__container">
+                            <p class="dropdown__content">Дополнительное место для дополнитльных опций</p>
+                            <button type="button" class="dropdown__btn">
+                                <svg width="17" height="17" fill="#161616">
+                                    <use class="dropdown__icon" href="./img/symbol-defs.svg#downdrop"></use>
+                                </svg>
+                            </button>
+
+                        </div>
+                        <!-- <ul class="dropdown__content is-hidden" data-menu>
+                                                    <li><a href=""></a>selling the garage</li>
+                                                    <li><a href=""></a>fuck off</li>
+                                                    <li><a href=""></a>beach</li>
+                                                </ul> -->
+                    </div>
+                </li>
+                <li class="dropdown__item">
+
+                    <div class="">
+                        <div class="dropdown__container">
+                            <p class="dropdown__content">Дополнительное место для дополнитльных опций</p>
+                            <button type="button" class="dropdown__btn">
+                                <svg width="17" height="17" fill="#161616">
+                                    <use class="dropdown__icon" href="./img/symbol-defs.svg#downdrop"></use>
+                                </svg>
+                            </button>
+
+                        </div>
+                        <!-- <ul class="dropdown__content is-hidden" data-menu>
+                            <li><a href=""></a>selling the garage</li>
+                            <li><a href=""></a>fuck off</li>
+                            <li><a href=""></a>beach</li>
+                        </ul> -->
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
+
+
+
+
+    </main>
+    <script src="./js/mobile-menu.js" type="module"></script>
+</body>
+
+</html>

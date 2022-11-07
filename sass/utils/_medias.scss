@@ -1,0 +1,5 @@
+@mixin phone-min {
+  @media screen and (min-width: 320px) {@content
+    
+  }
+}
