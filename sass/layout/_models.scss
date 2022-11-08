@@ -1,0 +1,17 @@
+.models{
+  margin-top: 20px;
+  &__titel{
+    margin-bottom: 17px;
+    padding-top: 17px;
+    border-top: 1px solid $common-color;
+    font-weight: 500;
+      font-size: 30px;
+      line-height: 1.2;
+      color: $common-color;
+    
+      text-transform: uppercase;
+  }
+  &__text{
+    @include common-p;
+  }
+}

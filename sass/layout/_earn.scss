@@ -1,0 +1,39 @@
+.earn{
+  @include phone-min{
+    margin-top: 60px;
+    
+  }
+  &__titel{
+    @include phone-min{
+      color: $common-color;
+      font-weight: 500;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+  }
+  
+  &__button{
+    @include phone-min {
+      margin-top: 30px;
+      width: 288px;
+      height: 60px;
+      text-align: center;
+      background-color: #fff;
+      border: transparent;
+      border: 1px solid $common-color;
+      
+      
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 1.16;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+}
+.earn__text{
+  @include phone-min{
+    @include common-p;
+  }
+}

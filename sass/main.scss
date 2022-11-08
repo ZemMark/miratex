@@ -2,6 +2,7 @@
 @import "./base/reset";
 @import "./utils/vars";
 @import "./utils/medias";
+@import "./utils/p-mixin";
 
 
 @import "./components/header";
@@ -13,3 +14,6 @@
 @import "./layout/hero";
 @import "./layout/features";
 @import "./layout/actions";
+@import "./layout/earn";
+@import "./layout/catalog";
+@import "./layout/models";

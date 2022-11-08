@@ -197,8 +197,10 @@ body {
 }
 
 .dropdown__item {
-  border-top: 1px solid #161616;
   border-bottom: 0.5px solid #161616;
+}
+.dropdown__item:not(:last-child) {
+  border-top: 1px solid #161616;
 }
 
 .dropdown__container {
@@ -256,4 +258,122 @@ body {
 
 .features {
   margin-top: 17px;
+}
+
+@media screen and (min-width: 320px) {
+  .earn {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .earn__titel {
+    color: #161616;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+}
+@media screen and (min-width: 320px) {
+  .earn__button {
+    margin-top: 30px;
+    width: 288px;
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    border: transparent;
+    border: 1px solid #161616;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.16;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .earn__text {
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.16;
+    color: #161616;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .catalog {
+    margin-top: 42px;
+  }
+}
+.catalog__titel {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #161616;
+  text-transform: uppercase;
+}
+.catalog__list {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+.catalog__link {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #161616;
+  text-transform: uppercase;
+}
+.catalog__downlaold {
+  width: 288px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.16;
+  text-align: center;
+  text-transform: uppercase;
+  color: #161616;
+}
+@media screen and (min-width: 320px) {
+  .catalog__button {
+    margin-top: 30px;
+    width: 288px;
+    height: 60px;
+    border: 1px solid #161616;
+    background-color: #fff;
+  }
+}
+.catalog__downlaold--text {
+  margin-top: 30px;
+  padding-top: 21.5px;
+  padding-bottom: 24.5px;
+  border: 1px solid #161616;
+}
+
+.models {
+  margin-top: 20px;
+}
+.models__titel {
+  margin-bottom: 17px;
+  padding-top: 17px;
+  border-top: 1px solid #161616;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #161616;
+  text-transform: uppercase;
+}
+.models__text {
+  margin-top: 17px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #161616;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */

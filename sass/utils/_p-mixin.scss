@@ -1,0 +1,8 @@
+@mixin common-p {
+  margin-top: 17px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  color: $common-color;
+  text-transform: uppercase;
+}

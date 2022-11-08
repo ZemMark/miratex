@@ -1,6 +1,9 @@
 .dropdown__item{
-  border-top: 1px solid $common-color;
   border-bottom: 0.5px solid $common-color;
+  &:not(:last-child){
+    border-top: 1px solid $common-color;
+    
+  }
 }
 .dropdown__container{
   display: flex;
