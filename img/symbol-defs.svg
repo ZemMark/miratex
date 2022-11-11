@@ -11,5 +11,11 @@
 </symbol> <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 19" id="downdrop">
     <path d="M17.4344 9.51074L8.93445 17.75M8.93445 17.75L0.434448 9.51074M8.93445 17.75L8.93445 0.75" stroke="#161616"></path>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" id="icon-left">
+    <path d="M9.67689 17.6876L1.43762 9.18762M1.43762 9.18762L9.67688 0.687623M1.43762 9.18762L18.4376 9.18762" stroke="#161616"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 19" id="icon-right">
+    <path d="M9.32311 0.812378L17.5624 9.31238M17.5624 9.31238L9.32311 17.8124M17.5624 9.31238H0.562378" stroke="#161616"></path>
+  </symbol>
 </defs>
 </svg>

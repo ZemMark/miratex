@@ -391,4 +391,71 @@ body {
 
 .models-bathroom__item {
   width: 134px;
+}
+
+.models__livingroom-detileListe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.model-description__list {
+  list-style: initial;
+  margin-top: 60px;
+}
+
+.models-description__text {
+  margin-top: 17px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  color: #161616;
+  text-transform: uppercase;
+}
+
+.model-description__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.model-description__button .button__text {
+  padding-top: 23px;
+  border: 1px solid #161616;
+  width: 288px;
+  height: 60px;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.models-slider__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #161616;
+}
+
+.models-slider__item {
+  width: 59.88px;
+  height: 59.88px;
+  border: 1px solid #161616;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }/*# sourceMappingURL=main.css.map */

@@ -28,3 +28,56 @@
 .models-bathroom__item{
   width: 134px;
 }
+
+.models__livingroom-detileListe{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.model-description__list{
+  list-style: initial;
+  margin-top: 60px;
+}
+.models-description__text{
+  @include common-p;
+    // text-transform: uppercase;
+}
+.model-description__item:not(:last-child){
+  margin-bottom: 8px;
+}
+.model-description__button{
+  & .button__text{
+  padding-top: 23px;
+  border: 1px solid $common-color;
+
+  width: 288px;
+  height: 60px;
+  margin-top: 30px;
+
+  font-weight: 600;
+font-size: 12px;
+line-height: 1.16;
+text-transform: uppercase;
+text-align: center;
+
+}
+}
+
+.models-slider__list{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid $common-color;
+
+}
+.models-slider__item{
+  width: 59.88px;
+  height: 59.88px;
+  border: 1px solid $common-color;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
