@@ -458,4 +458,36 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.addition {
+  margin-top: 60px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.addition__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #161616;
+}
+.addition__subtitle {
+  width: 165px;
+  margin-top: 17.28px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+}
+
+.addition-socials {
+  margin-top: 17.28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17px;
+}
+.addition-socials__item {
+  width: 32px;
+  height: 32px;
 }/*# sourceMappingURL=main.css.map */
