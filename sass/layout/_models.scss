@@ -36,11 +36,14 @@
 }
 
 .model-description__list{
-  list-style: initial;
+  width: 288px;
+  padding-left: 16px;
+  list-style: inherit;
   margin-top: 60px;
 }
 .models-description__text{
-  @include common-p;
+  // @include common-p;
+  font-size: 12;
     // text-transform: uppercase;
 }
 .model-description__item:not(:last-child){

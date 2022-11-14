@@ -100,6 +100,17 @@ body {
   margin-bottom: 17px;
 }
 
+.section-footer {
+  padding: 0 16px;
+  background-color: rgb(23, 22, 22);
+}
+
+.footer__logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .mobile-menu__content {
   padding-left: 20px;
   padding-top: 23.5px;
@@ -402,17 +413,14 @@ body {
 }
 
 .model-description__list {
-  list-style: initial;
+  width: 288px;
+  padding-left: 16px;
+  list-style: inherit;
   margin-top: 60px;
 }
 
 .models-description__text {
-  margin-top: 17px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.16;
-  color: #161616;
-  text-transform: uppercase;
+  font-size: 12;
 }
 
 .model-description__item:not(:last-child) {
