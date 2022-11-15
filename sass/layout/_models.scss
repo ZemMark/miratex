@@ -51,10 +51,11 @@
 }
 .model-description__button{
   & .button__text{
+    color: $common-color;
   padding-top: 23px;
   border: 1px solid $common-color;
 
-  width: 288px;
+  width: 100%;
   height: 60px;
   margin-top: 30px;
 

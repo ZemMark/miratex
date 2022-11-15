@@ -1,0 +1,19 @@
+.footer{
+  margin-top: 12px;
+  padding-bottom: 20px;
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 288px;
+    row-gap: 12px;
+  }
+  &__link{
+    font-size: 10px;
+      line-height: 12px;
+    
+      font-variant: small-caps;
+    
+      color: #FFFFFF;
+  }
+}

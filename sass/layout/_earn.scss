@@ -15,7 +15,7 @@
   &__button{
     @include phone-min {
       margin-top: 30px;
-      width: 288px;
+      width: 100%;
       height: 60px;
       text-align: center;
       background-color: #fff;

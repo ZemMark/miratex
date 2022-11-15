@@ -100,6 +100,29 @@ body {
   margin-bottom: 17px;
 }
 
+.footer {
+  margin-top: 12px;
+  padding-bottom: 20px;
+}
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 288px;
+  row-gap: 12px;
+}
+.footer__link {
+  font-size: 10px;
+  line-height: 12px;
+  font-variant: small-caps;
+  color: #FFFFFF;
+}
+
 .address {
   margin-top: 30px;
 }
@@ -225,6 +248,24 @@ body {
   margin-bottom: 17px;
 }
 
+.address-map__item {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.address-map__list {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+
+.address-map__map {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
 .mobile-menu__content {
   padding-left: 20px;
   padding-top: 23.5px;
@@ -238,7 +279,8 @@ body {
 }
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
+  overflow-y: hidden;
   top: 0;
   left: 0;
   width: 100%;
@@ -321,6 +363,19 @@ body {
   fill: currentColor;
 }
 
+.contacts-nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .dropdown__item {
   border-bottom: 0.5px solid #161616;
 }
@@ -401,7 +456,7 @@ body {
 @media screen and (min-width: 320px) {
   .earn__button {
     margin-top: 30px;
-    width: 288px;
+    width: 100%;
     height: 60px;
     text-align: center;
     background-color: #fff;
@@ -542,9 +597,10 @@ body {
 }
 
 .model-description__button .button__text {
+  color: #161616;
   padding-top: 23px;
   border: 1px solid #161616;
-  width: 288px;
+  width: 100%;
   height: 60px;
   margin-top: 30px;
   font-weight: 600;
