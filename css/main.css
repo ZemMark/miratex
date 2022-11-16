@@ -270,7 +270,6 @@ body {
   padding-left: 20px;
   padding-top: 23.5px;
   padding-right: 16px;
-  position: relative;
 }
 
 .mobile-menu__menu-btn {
@@ -279,8 +278,19 @@ body {
 }
 
 .mobile-menu {
+  padding: 23.5px;
   position: fixed;
   overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   top: 0;
   left: 0;
   width: 100%;
@@ -316,7 +326,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 63px;
+  margin-bottom: 63px;
 }
 .lang__item:not(:last-child) {
   margin-right: 10px;
@@ -352,10 +362,20 @@ body {
 }
 
 .action__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   color: #fff;
 }
 .action__link:hover, .action__link:active, .action__link:focus {
   color: #006B94;
+}
+
+.action__icon-svg {
+  margin-right: 10px;
 }
 
 .action__icon:active,
@@ -667,6 +687,9 @@ body {
   gap: 17px;
 }
 .addition-socials__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 32px;
   height: 32px;
 }/*# sourceMappingURL=main.css.map */

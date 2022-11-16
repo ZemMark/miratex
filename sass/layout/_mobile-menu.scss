@@ -3,7 +3,7 @@
     padding-top: 23.5px;
     padding-right: 16px;
 
-    position: relative;
+    // position: relative;
 
     
 }
@@ -16,8 +16,12 @@
 
 
 .mobile-menu{
+    padding: 23.5px;
     position: fixed;
     overflow-y: hidden;
+        display: flex;
+            flex-direction: column;
+            justify-content: space-between;
     // border-left: 16px solid rgb(230, 45, 45);
     top:0;
     left:0;
@@ -54,8 +58,8 @@
 
 .lang{
     display: flex;
+    margin-bottom: 63px;
     
-    padding-bottom: 63px;
     &__item:not(:last-child){
         margin-right: 10px;
     }
@@ -85,12 +89,17 @@
     justify-content: space-between;
 }
 .action__link{
+    display: flex;
+    align-items: flex-end;
     color: #fff;
     &:hover,
     &:active,
     &:focus{
         color: $accent-color;
     }
+}
+.action__icon-svg{
+    margin-right: 10px;
 }
 .action__icon:active,
 .action__icon:focus{
